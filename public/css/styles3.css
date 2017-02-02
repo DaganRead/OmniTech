@@ -1,0 +1,6 @@
+/* Background*/
+html {
+    background: url(../images/background_image_2.svg) 100% 100% repeat,
+   url(../images/background_image_1.png) 100% 100% repeat,
+   url(../images/background_image_0.jpg) 100% 100% repeat;
+} 
