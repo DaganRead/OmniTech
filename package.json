@@ -1,13 +1,13 @@
 {
-  "name": "Mean",
-  "description": "class tutorial",
+  "name": "OmniTech",
+  "description": "website",
   "version": "0.1",
   "private": true,
   "keywords": [
-    "HTML5",
-    "video",
-    "player",
-    "videoplayer"
+    "OmniTech",
+    "OceanTech",
+    "AgriTech",
+    "AeroTech"
   ],
   "contributors": [
     {
