@@ -1,22 +1,53 @@
 {
-  "name": "OmniTech",
+  "name": "OmnitechSA",
+  "version": "1.0.0",
   "description": "website",
-  "version": "0.1",
-  "private": true,
   "keywords": [
-    "OmniTech",
-    "OceanTech",
-    "AgriTech",
-    "AeroTech"
+    "technology",
+    "South Africa",
+    "space",
+    "rov"
   ],
-  "contributors": [
-    {
-      "name": "Dagan Read",
-      "email": "daganread@gmail.com"
-    }
-  ],
+  "author": {
+    "name": "Dagan Read",
+    "email": "daganread@gmail.com",
+    "url": "http://omnitechsa.co.za/"
+  },
+  "homepage": "http://www.omnitech.herokuapp.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daganread/OmniTech"
+  },
+  "engines": {
+    "node": "6.11.4"
+  },
   "dependencies": {
-    "express": "3.4.x",
-    "socket.io": "0.9.x"
-  }
+    "bindings": "~1.3.x",
+    "body-parser": "~1.9.x",
+    "bower": "~1.2.x",
+    "express": "~4.15.x",
+    "hiredis": "~0.5.x",
+    "moment": "~2.18.x",
+    "mongodb": "~2.2.x",
+    "mongojs": "~2.4.0",
+    "msgpack": "~1.0.x",
+    "ng-videosharing-embed": "~0.3.x",
+    "node-cron": "~1.1.x",
+    "node-gyp": "~1.0.x",
+    "nodemon": "^1.12.1",
+    "paypal-rest-sdk": "~1.7.x",
+    "redis": "~2.8.x",
+    "socket.io": "~2.0.x",
+    "socketio-file-upload": "~0.6.x",
+    "underscore": "~1.8.x",
+    "aws-sdk": "~2.153.x",
+    "sendgrid": "^4.2.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": false,
+  "main": "server.js"
 }
